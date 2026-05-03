@@ -6,3 +6,5 @@
 * `best_2021_gat.pth`: Graph attention network (GAT) trained on the 2021-2022 time sub-series.
 
 To use an existing checkpoint, copy it to `../best_load_forecasting_gcn.pth` for use with cell no. 6 of the notebook.
+
+* `best_load_forecasting_ff.pth`: Checkpoint for the baseline feed-forward network.
