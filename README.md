@@ -7,8 +7,8 @@ Leveraging modern AI techniques for electrical load forescasting.
 Preprocessed datasets and other useful files are found in the `data/` folder. The scripts to derive
 these from the upstream data sources are found in `data_processsing_scripts/`.
 
-- `01-florida-dataset.py` for dataset [1]
-- `02-florida-distances.py` for dataset [2]
+_ `01_florida_load.py` for dataset [1]
+_ `02_florida_distances.py` for dataset [2]
 
 ### Upstream Data Sources
 
