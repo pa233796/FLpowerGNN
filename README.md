@@ -2,13 +2,27 @@
 
 Leveraging modern AI techniques for electrical load forescasting.
 
+An AI/ML project by Pablo Rodriguez and Shambhu Marasini from the University of Central Florida for
+the class term project of EEL 6878: Modeling and Artificial Intelligence (Instructor: Dr. Tong Wu).
+
+## Training and running the models
+
+All the relevant code is contained in the Jupyter Notebooks, you can setup your environment using the following:
+
+```
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+cd notebook/
+jupyter notebook
+```
+
 ## Data processing scripts
 
 Preprocessed datasets and other useful files are found in the `data/` folder. The scripts to derive
 these from the upstream data sources are found in `data_processsing_scripts/`.
 
-_ `01_florida_load.py` for dataset [1]
-_ `02_florida_distances.py` for dataset [2]
+* `01_florida_load.py` for dataset [1]
+* `02_florida_distances.py` for dataset [2]
 
 ### Upstream Data Sources
 
